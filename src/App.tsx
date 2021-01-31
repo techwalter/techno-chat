@@ -133,7 +133,7 @@ function ChatMessage(props: {
         <img
           src={
             photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'
-          }
+          } alt="user_img"
         />
         <p>{text}</p>
       </div>
